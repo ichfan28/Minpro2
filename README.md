@@ -1,29 +1,29 @@
 # Posttes 2
-Kelas Hewan (Superkelas)
+1. Kelas Hewan (Superkelas)
 
-Kelas Hewan adalah kelas dasar yang mendefinisikan atribut umum dari hewan, yaitu:
+   Kelas Hewan adalah kelas dasar yang mendefinisikan atribut umum dari hewan, yaitu:
 
     Nama (String)
     Jenis (String)
     Umur (int)
 
-Constructor Hewan digunakan untuk menginisialisasi objek hewan dengan nama, jenis, dan umur.
+   Constructor Hewan digunakan untuk menginisialisasi objek hewan dengan nama, jenis, dan umur.
 
 Getter dan Setter:
 
     Untuk mengakses dan mengubah nilai atribut nama, jenis, dan umur.
 
-Metode toString:
+  Metode toString:
 
-    Digunakan untuk mengembalikan representasi string dari objek Hewan, menampilkan semua atribut dalam format yang lebih mudah dibaca.
+    Digunakan untuk mengembalikan representasi string dari objek Hewan, menampilkan semua atribut dalam format yang lebih mudah       dibaca.
 
 2. Kelas Turunan Ayam, Kambing, Kuda, dan Sapi
 
-Setiap kelas (seperti Ayam, Kambing, Kuda, dan Sapi) adalah turunan dari kelas Hewan. Masing-masing kelas ini mewarisi atribut dan metode dari kelas Hewan.
+  Setiap kelas (seperti Ayam, Kambing, Kuda, dan Sapi) adalah turunan dari kelas Hewan. Masing-masing kelas ini mewarisi atribut    dan metode dari kelas Hewan.
 
     Ayam dan Kambing hanya mewarisi konstruktor Hewan dan menambahkan fungsionalitas dasar.
 
-    Kuda memiliki atribut tambahan berupa ras (String), yang disertakan dalam konstruktor dan metode toString. Saat melakukan toString(), kelas Kuda akan menambahkan informasi tentang ras pada hasil output.
+    Kuda memiliki atribut tambahan berupa ras (String), yang disertakan dalam konstruktor dan metode toString. Saat melakukan   toString(), kelas Kuda akan menambahkan informasi tentang ras pada hasil output.
 
     Sapi juga hanya mewarisi atribut dari kelas Hewan tanpa tambahan atribut atau metode khusus.
 
